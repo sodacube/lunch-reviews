@@ -2,7 +2,7 @@
 
 [build]
   # No build command needed - this is a static site
-  publish = "."
+  publish = "/"
 
 # Headers for security and caching
 [[headers]]
@@ -13,23 +13,16 @@
     X-Content-Type-Options = "nosniff"
 
 [[headers]]
-  for = "*.js"
+  for = "/*.js"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
 [[headers]]
-  for = "*.css"
+  for = "/*.css"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
 [[headers]]
-  for = "*.json"
+  for = "/*.json"
   [headers.values]
     Cache-Control = "public, max-age=3600"
-
-# Redirects for SPA support (if needed in future)
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-  conditions = {Role = ["admin"]}
