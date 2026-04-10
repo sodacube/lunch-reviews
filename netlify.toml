@@ -2,7 +2,8 @@
 
 [build]
   # No build command needed - this is a static site
-  publish = "/"
+  publish = "."
+  command = ""
 
 # Headers for security and caching
 [[headers]]
