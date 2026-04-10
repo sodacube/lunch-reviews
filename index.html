@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing Lunch Reviews</title>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="config.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-icon">🍽️</span>
+                    <h1>Lunch Reviews</h1>
+                </div>
+                <p class="subtitle">Digital Marketing Team's Culinary Adventures</p>
+            </div>
+            <div class="view-toggle">
+                <button class="toggle-btn active" data-view="list">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="8" y1="6" x2="21" y2="6"></line>
+                        <line x1="8" y1="12" x2="21" y2="12"></line>
+                        <line x1="8" y1="18" x2="21" y2="18"></line>
+                        <line x1="3" y1="6" x2="3.01" y2="6"></line>
+                        <line x1="3" y1="12" x2="3.01" y2="12"></line>
+                        <line x1="3" y1="18" x2="3.01" y2="18"></line>
+                    </svg>
+                    List
+                </button>
+                <button class="toggle-btn" data-view="map">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"></polygon>
+                        <line x1="8" y1="2" x2="8" y2="18"></line>
+                        <line x1="16" y1="6" x2="16" y2="22"></line>
+                    </svg>
+                    Map
+                </button>
+            </div>
+        </header>
+
+        <!-- Stats Bar -->
+        <div class="stats-bar">
+            <div class="stat">
+                <span class="stat-value" id="venueCount">0</span>
+                <span class="stat-label">Venues</span>
+            </div>
+            <div class="stat">
+                <span class="stat-value" id="reviewCount">0</span>
+                <span class="stat-label">Reviews</span>
+            </div>
+            <div class="stat">
+                <span class="stat-value" id="avgScore">0</span>
+                <span class="stat-label">Avg Score</span>
+            </div>
+            <div class="stat">
+                <span class="stat-value" id="topVenue">-</span>
+                <span class="stat-label">Top Rated</span>
+            </div>
+        </div>
+
+        <!-- Search & Filter -->
+        <div class="controls">
+            <div class="search-box">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <path d="m21 21-4.35-4.35"></path>
+                </svg>
+                <input type="text" id="searchInput" placeholder="Search venues...">
+            </div>
+            <div class="filter-chips" id="categoryFilters">
+                <button class="chip active" data-category="all">All</button>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- List View -->
+            <div class="list-view active" id="listView">
+                <div class="venue-grid" id="venueGrid"></div>
+            </div>
+
+            <!-- Map View -->
+            <div class="map-view" id="mapView">
+                <div id="map"></div>
+                <div class="token-prompt" id="tokenPrompt">
+                    <div class="token-box">
+                        <h3>🗺️ Mapbox Token Required</h3>
+                        <p>Enter your Mapbox public access token to display the map:</p>
+                        <input type="text" id="tokenInput" placeholder="pk.eyJ1Ijoi...">
+                        <button id="tokenSubmit">Load Map</button>
+                        <a href="https://account.mapbox.com/access-tokens/" target="_blank">Get a token →</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Venue Detail Modal -->
+        <div class="modal-overlay" id="modalOverlay">
+            <div class="modal" id="venueModal">
+                <button class="modal-close" id="modalClose">&times;</button>
+                <div class="modal-content" id="modalContent"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

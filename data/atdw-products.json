@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "productId": "5b04e9a7cf80c65c364c22fd",
+      "productName": "Africola",
+      "productDescription": "Africola is a multiple award winning South Australian restaurant, housed in a colourful, heritage-listed East End building - the home of good times in Adelaide. The restaurant is centred around an open-plan kitchen and wood-fire oven – with big flavours, smoke, and spice at the heart of everything they do.",
+      "productCategoryId": "RESTAURANT",
+      "productImage": "https://assets.atdw-online.com.au/images/769ebd45c47c0bf5af9801ae91214105.jpeg?rect=0%2C0%2C1600%2C1200&w=800&h=600",
+      "boundary": "-34.92135829999999,138.610549",
+      "latitude": -34.92135829999999,
+      "longitude": 138.610549,
+      "address": "4 East Terrace, Adelaide SA 5000"
+    },
+    {
+      "productId": "6201c6e5b420979c36e9ddbc",
+      "productName": "Lucias Pizza and Spaghetti Bar",
+      "productDescription": "Occupying a prime position in the Adelaide Central Market, Lucia's has been providing locals and out-of-towners with authentic Southern Italian cuisine for decades. Established in 1957, the first pizza bar in Adelaide.",
+      "productCategoryId": "RESTAURANT",
+      "productImage": "https://assets.atdw-online.com.au/images/116752a82ebb6842e74f87ba0ec8c803.jpeg?rect=304%2C0%2C4864%2C3648&w=800&h=600",
+      "boundary": "-34.9294838,138.5974186",
+      "latitude": -34.9294838,
+      "longitude": 138.5974186,
+      "address": "Adelaide Central Market, Shop 1-2 Central Western Mall, Adelaide SA 5000"
+    }
+  ],
+  "note": "ATDW products found for lunch review venues. Most small local restaurants are not listed in the tourism database."
+}
