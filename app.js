@@ -51,7 +51,7 @@ async function loadData() {
 
     // Merge review data with venues
     venues = venues.map(venue => {
-        const venueReviews = reviews.filter(r => r.venue.toLowerCase() === venue.name.toLowerCase());
+        const venueReviews = reviews.filter(r => normalizeString(r.venue) === normalizeString(venue.name));
         const scores = venueReviews.map(r => r.total);
         const avgScore = scores.length > 0 ? (scores.reduce((a, b) => a + b, 0) / scores.length).toFixed(1) : 0;
         
@@ -133,6 +133,11 @@ function parseCSVLine(line) {
 function average(arr) {
     if (arr.length === 0) return 0;
     return (arr.reduce((a, b) => a + b, 0) / arr.length).toFixed(1);
+}
+
+// Normalize string for comparison (removes accents and special characters)
+function normalizeString(str) {
+    return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 }
 
 // Render Category Filters
