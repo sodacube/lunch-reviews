@@ -135,9 +135,14 @@ function average(arr) {
     return (arr.reduce((a, b) => a + b, 0) / arr.length).toFixed(1);
 }
 
-// Normalize string for comparison (removes accents and special characters)
+// Normalize string for comparison (removes accents, special characters, and handles encoding issues)
 function normalizeString(str) {
-    return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    return str
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')  // Remove combining diacritical marks
+        .replace(/[^\x00-\x7F]/g, '')      // Remove any non-ASCII characters (handles encoding corruption)
+        .toLowerCase()
+        .trim();
 }
 
 // Render Category Filters
