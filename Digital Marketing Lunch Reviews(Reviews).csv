@@ -61,8 +61,8 @@ Venue Number,Venue,Chosen by,Reviewer,Proximity /Access,Taste,Value,Service,Vibe
 18,Jumbo Smash,Katelin,Hamish,17,19,19,15,19,89,"Great value, excellent chicken burger and nice chardy"
 18,Jumbo Smash,Katelin,Mac,17,19,19,15,19,89,"Great vibe, the music was abit loud for conversation but the food was very tasty."
 18,Jumbo Smash,Katelin,Lily,17,19,19,16,18,89,"Great food, wont need to eat for many days to come. Forgot my mushroom burger but gave me a small pot of fries to sustain myself, so ultimately only knocked a few points off service for that. Music was a tad loud but it was still a funky vibe. Burger once it did arrive was honestly 10/10 for a vego meal. Would eat again - chefs kiss!"
-19,Hot & Spicy Kitchen,Hamish,Aubrey,20,20,20,20,20,100,"Very good food, quick, cheap and super wholesome! 20s across the board"
-19,Hot & Spicy Kitchen,Hamish,Hamish,20,20,20,20,20,100,"Biased: I love spicy food, I love asian food, I love sharing food. Couldn't have been better"
+19,Hot & Spicy Kitchen,Hamish,Aubrey,19,20,20,20,20,99,"Very good food, quick, cheap and super wholesome! 20s across the board"
+19,Hot & Spicy Kitchen,Hamish,Hamish,19,20,20,20,20,99,"Biased: I love spicy food, I love asian food, I love sharing food. Couldn't have been better"
 19,Hot & Spicy Kitchen,Hamish,Katelin,19,19,20,18,19,95,"loved stuffing my face - and I'm now in a food coma, so you could say it went down a treat"
 19,Hot & Spicy Kitchen,Hamish,Ben,17,20,20,19,18,94,"So tasty, much value, such goodness."
 19,Hot & Spicy Kitchen,Hamish,Ed,17,19,20,19,17,92,"$20 for a hearty, tasty, spicy meal including a drink. Great value."
@@ -110,18 +110,18 @@ Venue Number,Venue,Chosen by,Reviewer,Proximity /Access,Taste,Value,Service,Vibe
 27,BB Thai Town,Elisha,Nick,18,17,17,18,19,89,
 27,BB Thai Town,Elisha,Aubrey,18,17,17,17,19,88,"Loved the music pumping up the lunch time vibes. Service was quick, food had good spice and overall venue was well designed"
 27,BB Thai Town,Elisha,Mac,18,19,17,17,17,88,"Loved the Thai fried rice, very tasty and flavoursome"
-27,BB Thai Town,Elisha,Ed,16,18,17,13,16,80,$32 for a decent basil chilli chicken stir fry and a beer. Forced capture of email address to order is a turn off
+27,BB Thai Town,Elisha,Ed,17,18,17,13,16,81,$32 for a decent basil chilli chicken stir fry and a beer. Forced capture of email address to order is a turn off
 28,Gilbert St Social,Lily,Ed,13,18,19,18,16,84,$15 for a tasty chicken toastie. Toasted lettuce was a bit questionable though
 28,Gilbert St Social,Lily,Nick,13,18,18,17,18,84,tasty chicken toastie
 28,Gilbert St Social,Lily,Ben,13,18,16,17,20,84,
 28,Gilbert St Social,Lily,Em,14,17,16,17,20,84,Nothin' better than a classic ham & cheese toastie
 29,Cheeky Greek,Elisha,Ed,17,18,16,17,17,85,"$28 for a huge yiros, chips & can of coke was decent. Structural integrity issues with Yiros due to pita falling apart"
-29,Cheeky Greek,Elisha ,Katelin ,17,17,17,16,17,84,Was a nice vibe. Meat was delicious. Service points deducted as they didn't need to do much. Great choice. 
-29,Cheeky Greek,Elisha ,Aubrey,17,17,16,19,18,87,"Delicious meal, quick service, just a tad pricey for a yiros... but it was huge."
-29,Cheeky Greek,Elisha ,Dan,16,17,14,17,14,78,
-29,Cheeky Greek,Elisha ,Em,16,18,17,18,18,87,Cool and casj vibe. Loved the cheeky chips - the feta garnish is a nice touch!
-29,Cheeky Greek,Elisha ,Kylie,17,18,17,18,18,88,Delicious - portion size was substantial.  Prefer a traditional garlic sauce to tzaziki on filling - so skewed my vote.
-30,Lucia's,Kylie,Ed,19,18,17,13,17,84,"Huge tasty lasagna for $22. Order at counter, and scattergun delivery to table were issues"
+29,Cheeky Greek,Elisha,Katelin ,17,17,17,16,17,84,Was a nice vibe. Meat was delicious. Service points deducted as they didn't need to do much. Great choice. 
+29,Cheeky Greek,Elisha,Aubrey,17,17,16,19,18,87,"Delicious meal, quick service, just a tad pricey for a yiros... but it was huge."
+29,Cheeky Greek,Elisha,Dan,16,17,14,17,14,78,
+29,Cheeky Greek,Elisha,Em,16,18,17,18,18,87,Cool and casj vibe. Loved the cheeky chips - the feta garnish is a nice touch!
+29,Cheeky Greek,Elisha,Kylie,17,18,17,18,18,88,Delicious - portion size was substantial.  Prefer a traditional garlic sauce to tzaziki on filling - so skewed my vote.
+30,Lucia's,Kylie,Ed,18,18,17,13,17,83,"Huge tasty lasagna for $22. Order at counter, and scattergun delivery to table were issues"
 30,Lucia's,Kylie,Dan,17,19,17,15,17,85,Very tasty mushroom pizza. Price was on the mark. Good energy environment even if strangers were walking past bumping into us. Was close too!
 30,Lucia's,Kylie,Céline,18,15,15,18,16,82,I reckon I didn't make the best choice with my salad! do not recommend the raw cauliflower.. but always nice going to the market on a Friday with one of the best proximity!
 30,Lucia's,Kylie,Katelin,18,18,17,17,17,87,"Love the market vibe, never dined in so was great to do that, taste was great. "
@@ -131,12 +131,32 @@ Venue Number,Venue,Chosen by,Reviewer,Proximity /Access,Taste,Value,Service,Vibe
 31,Johnny Come Lately,Nick,Jeppe,18,18,18,17,15,86,"Well stacked, could have had a little bit more balsamic."
 31,Johnny Come Lately,Nick,Aubrey,17,16,18,18,18,87,"It was a great spot to sit outside in the shade. Whilst I did have a basic ham and cheese, I did think there was potential to do slightly better with the flavour. "
 31,Johnny Come Lately,Nick,Kylie,17,16,16,17,17,83,Pretty good value overall.  Not too far to walk.  Reuben was substantial - just missing rye and saurkraut.
-32,Johnny Come Lately,Nick,Celine,17,12,12,17,15,73,sandwich too basic for value
+31,Johnny Come Lately,Nick,Celine,17,12,12,17,15,73,sandwich too basic for value
 31,Johnny Come Lately,Nick,Katelin,17,16,16,16,17,82,I think it was a solid ham and cheese toastie - very filling - no notes. Just didn't BLOW my socks off. But would go back. 
 32,Warung Suka,Jeppe,Ed,17,18,18,16,16,85,$18 for a good portion of spicy chicken nasi goreng.
 32,Warung Suka,Jeppe,Kylie,18,19,19,16,16,88,"Great value, very close - food was delicious and extra points for the plastic straw "
 32,Warung Suka,Jeppe,Jeppe,18,19,19,17,17,90,"Very tasty rendang, very tender. Good prices. Took a bit long but def worth the wait."
 32,Warung Suka,Jeppe,Katelin,18,16,20,17,16,87,"I only got spring rolls, so don't rely on my judegment! Springrolls were only $5. I got a surprise extra spring roll. "
 32,Warung Suka,Jeppe,Nick,17,15,18,17,15,82,"Tasty Beef Rendang, however no thanks to the gristle/skin/fat, noodles so-so. Might try the chicken with rice if i went back."
-33,Warung Suka,Jeppe,Celine,19,18,16,16,15,84,"great proximity, tastes great just a little expansive for mainly rice and vibe average"
+32,Warung Suka,Jeppe,Celine,19,18,16,16,15,84,"great proximity, tastes great just a little expansive for mainly rice and vibe average"
 32,Warung Suka,Jeppe,Em,18,15,17,16,15,81,"unfortunately, was on a post-wedding budget and had to get the cheapest thing on the menu :( BUT for tofu, it was pretty tasty"
+32,Warung Suka,Jeppe,Aubrey,18,19,19,17,16,89,"Loved the food, great pick for your first Digi Mark Lunch Jeppe! well-priced and close to work"
+33,Ajisen Ramen,Ben,Ed,17,18,18,13,14,80,$20 for a tasty grilled steak ramen was decent. Very slow service though.
+33,Ajisen Ramen,Ben,Mac,17,19,19,14,13,82,$20 for a very tasty deep-fried chicken and soup noodles is a bargain. But the service was slow. 
+33,Ajisen Ramen,Ben,Celine,20,19,18,13,13,83,$17 for a very tasty teryiaki chicken with good quality of rice and the green tea was also a good one!
+33,Ajisen Ramen,Ben,Ben,19,20,19,13,15,86,"One of my favorite restaurants around, but the service was very slow today."
+34,Friwi,Celine,Dan,19,20,19,20,20,98,Loved it!
+34,Friwi,Celine,Kylie,18,18,18,19,18,91,I loved the Buckwheat crepe.  They also added Spinach and customised my order.
+34,Friwi,Celine,Ed,18,17,19,17,17,88,"$16 for a ham, cheese, egg and mushroom Galette was pretty good value. Pepper was only seasoning - missed something like mustard"
+34,Friwi,Celine,Nick,18,17,18,18,16,87,"pretty healthy, i personally would like a bit more flavour. Central Market typically busy, noisy, can be ticky to find a table."
+34,Friwi,Celine,Celine,18,18,18,17,17,88,"I find the value quite fair as well compared to some other sando places for what you get, I also am fairly French Gastronomy proud :P"
+34,Friwi,Celine,Aubrey,18,18,18,19,19,92,loved the sweet crepe - freshly sliced apples and cinnamon is a good combo any day. Freshly made and had great service
+35,Chirin,Mac,Ed,19,17,18,17,17,88,$17 for an intersting take on Hainanese chicken rice was good value. 
+35,Chirin,Mac,Kylie,18,17,18,16,17,86,Requested dressing on the side and no glass with ice.  No table service.  
+35,Chirin,Mac,Mac,19,18,18,17,17,89,
+35,Chirin,Mac,Ben,18,18,18,16,17,87,
+36,Mr Mario's,Aubrey,Celine,18,18,18,16,17,87,"value for money okay, appreciated the nice little outdoor tables and the brioche bun makes burgers better!"
+36,Mr Mario's,Aubrey,Ed,18,18,18,17,16,87,"Good value - $22 for a big burger, crispy chips and a can of soft drink. Lost points due to an underseasoned patty and poor structural integrity. Had to stand and eat like an animal"
+36,Mr Mario's,Aubrey,Kylie,18,18,19,18,16,89,Very good value and flavour - standing tables the only let down
+36,Mr Mario's,Aubrey,Dan,17,16,18,16,16,83,Burger patty was under seasoned. Too much chunky onion. I liked the location and didn't mind standing at those tables. But the service hut did feel a bit like a ghetto crackhouse.
+36,Mr Mario's,Aubrey,Nick,18,18,18,18,16,88,"good classic burger, tastier than the photo on their website."
